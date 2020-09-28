@@ -22,12 +22,16 @@ Implementing the Heston model using Fourier transform (Lewis and Lipton formula)
 
 ### SABR: 
 Implementing the SABR Approximation (same as McGhees "An artificial neural network representation of the sabr stochastic volatility model"). from that we generate 300-thousand datapoints for our ANN. The ANN is available in easy to understand implementations with comments. This folder will also contain the hyper-parameter tuning of our neural network.
+- SABR Approximation ANN
+- SABR Integration ANN 
+- SABR Hyperparameters
+- SABR Setup
 
 ### Other:
+Contains a bit of everything 
 - Activation function comparison
 - Activation functions
 - Early stopping
 - Gradient Descent
 - Initializers
 - Sobol
-
