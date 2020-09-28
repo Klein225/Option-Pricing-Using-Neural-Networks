@@ -10,10 +10,16 @@ The following folders will only contain the code used to compute the neural netw
 Calculating the simple BSM call/put-prices as well as simulating using Monte Carlo and Artificial Neural Networks. The networks are based on the work by Antoine Savine (https://antoinesavine.com/category/machine-learning/) and William McGhee ("An artificial neural network representation of the sabr stochastic volatility model").
 
 ### Heston:
-Hi
-
-### Other:
-Hi
+Implementing the Heston model using Fourier transform (Lewis and Lipton formula) as well as using the Brent method to deduce the implied volatilities. From that we generate 300-thousand datapoints for our ANN and 600-thousand datapoints for our DNN. Both the ANN and DNN are available in easy to understand implementations with comments. This folder will also contain the hyper-parameter tuning of our neural networks.
 
 ### SABR: 
-Hi
+Implementing the SABR Approximation (same as McGhees "An artificial neural network representation of the sabr stochastic volatility model"). from that we generate 300-thousand datapoints for our ANN. The ANN is available in easy to understand implementations with comments. This folder will also contain the hyper-parameter tuning of our neural network.
+
+### Other:
+- Activation function comparison
+- Activation functions
+- Early stopping
+- Gradient Descent
+- Initializers
+- Sobol
+
